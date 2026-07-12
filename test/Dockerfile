@@ -1,3 +1,3 @@
 FROM build:v7
-RUN usereadd roboshop
+RUN useradd roboshop
 USER roboshop
