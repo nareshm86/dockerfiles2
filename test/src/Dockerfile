@@ -1,1 +1,3 @@
-FROM onbuild:v1
+FROM build:v7
+RUN usereadd roboshop
+USER roboshop
